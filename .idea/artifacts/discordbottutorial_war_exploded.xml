@@ -1,0 +1,29 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="discordbottutorial:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/discordbottutorial_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="discordbottutorial" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JDA-3.0.BETA2_135" />
+          <element id="library" level="project" name="com.neovisionaries:nv-websocket-client:1.30" />
+          <element id="library" level="project" name="com.mashape.unirest:unirest-java:1.4.9" />
+          <element id="library" level="project" name="org.apache.directory.studio:org.apache.commons.collections:3.2.1" />
+          <element id="library" level="project" name="org.json:json:20160810" />
+          <element id="library" level="project" name="net.java.dev.jna:jna:4.3.0" />
+          <element id="library" level="project" name="commons-lang3-3.5" />
+          <element id="library" level="project" name="at.mukprojects:giphy4j:1.0.1" />
+          <element id="library" level="project" name="com.google.apis:google-api-services-youtube:v3-rev125-1.18.0-rc" />
+          <element id="library" level="project" name="javax.servlet:servlet-api:2.5" />
+          <element id="library" level="project" name="com.googlecode.objectify:objectify:Release" />
+          <element id="library" level="project" name="javax.servlet:jstl:Release" />
+          <element id="library" level="project" name="com.google.appengine:appengine-endpoints:Release" />
+          <element id="library" level="project" name="com.google.appengine:appengine-api-1.0-sdk:Release" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="discordbottutorial/web/Web" />
+    </root>
+  </artifact>
+</component>
